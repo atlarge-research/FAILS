@@ -1,0 +1,121 @@
+[2025-01-25 13:19:51 +0100] [93606] [INFO] Starting gunicorn 21.2.0
+[2025-01-25 13:19:51 +0100] [93606] [INFO] Listening at: http://0.0.0.0:5000 (93606)
+[2025-01-25 13:19:51 +0100] [93606] [INFO] Using worker: sync
+[2025-01-25 13:19:51 +0100] [93609] [INFO] Booting worker with pid: 93609
+[2025-01-25 13:19:51 +0100] [93610] [INFO] Booting worker with pid: 93610
+[2025-01-25 13:19:51 +0100] [93611] [INFO] Booting worker with pid: 93611
+[2025-01-25 13:19:51 +0100] [93615] [INFO] Booting worker with pid: 93615
+[2025-01-25 13:19:56 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:19:56 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:21:02 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:22:11 +0100] [93606] [INFO] Handling signal: winch
+[2025-01-25 13:25:45 +0100] [93611] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:25:45 +0100] [93609] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:25:45 +0100] [93609] [INFO] Worker exiting (pid: 93609)
+[2025-01-25 13:25:45 +0100] [93611] [INFO] Worker exiting (pid: 93611)
+[2025-01-25 13:25:45 +0100] [93615] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:25:45 +0100] [93615] [INFO] Worker exiting (pid: 93615)
+[2025-01-25 13:25:45 +0100] [93610] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:25:45 +0100] [93610] [INFO] Worker exiting (pid: 93610)
+[2025-01-25 13:25:46 +0100] [95081] [INFO] Booting worker with pid: 95081
+[2025-01-25 13:25:46 +0100] [95083] [INFO] Booting worker with pid: 95083
+[2025-01-25 13:25:46 +0100] [95084] [INFO] Booting worker with pid: 95084
+[2025-01-25 13:25:46 +0100] [95085] [INFO] Booting worker with pid: 95085
+[2025-01-25 13:26:36 +0100] [95084] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:26:36 +0100] [95085] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:26:36 +0100] [95083] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:26:36 +0100] [95084] [INFO] Worker exiting (pid: 95084)
+[2025-01-25 13:26:36 +0100] [95085] [INFO] Worker exiting (pid: 95085)
+[2025-01-25 13:26:36 +0100] [95083] [INFO] Worker exiting (pid: 95083)
+[2025-01-25 13:26:36 +0100] [95081] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:26:36 +0100] [95081] [INFO] Worker exiting (pid: 95081)
+[2025-01-25 13:26:37 +0100] [95245] [INFO] Booting worker with pid: 95245
+[2025-01-25 13:26:37 +0100] [95246] [INFO] Booting worker with pid: 95246
+[2025-01-25 13:26:37 +0100] [95247] [INFO] Booting worker with pid: 95247
+[2025-01-25 13:26:37 +0100] [95248] [INFO] Booting worker with pid: 95248
+[2025-01-25 13:27:35 +0100] [95247] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:35 +0100] [95247] [INFO] Worker exiting (pid: 95247)
+[2025-01-25 13:27:35 +0100] [95245] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:35 +0100] [95246] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:35 +0100] [95248] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:35 +0100] [95246] [INFO] Worker exiting (pid: 95246)
+[2025-01-25 13:27:35 +0100] [95245] [INFO] Worker exiting (pid: 95245)
+[2025-01-25 13:27:35 +0100] [95248] [INFO] Worker exiting (pid: 95248)
+[2025-01-25 13:27:36 +0100] [95407] [INFO] Booting worker with pid: 95407
+[2025-01-25 13:27:36 +0100] [95408] [INFO] Booting worker with pid: 95408
+[2025-01-25 13:27:36 +0100] [95409] [INFO] Booting worker with pid: 95409
+[2025-01-25 13:27:37 +0100] [95410] [INFO] Booting worker with pid: 95410
+[2025-01-25 13:27:59 +0100] [95409] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:59 +0100] [95409] [INFO] Worker exiting (pid: 95409)
+[2025-01-25 13:27:59 +0100] [95408] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:59 +0100] [95407] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:59 +0100] [95410] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:27:59 +0100] [95408] [INFO] Worker exiting (pid: 95408)
+[2025-01-25 13:27:59 +0100] [95407] [INFO] Worker exiting (pid: 95407)
+[2025-01-25 13:27:59 +0100] [95410] [INFO] Worker exiting (pid: 95410)
+[2025-01-25 13:28:00 +0100] [95445] [INFO] Booting worker with pid: 95445
+[2025-01-25 13:28:00 +0100] [95446] [INFO] Booting worker with pid: 95446
+[2025-01-25 13:28:00 +0100] [95447] [INFO] Booting worker with pid: 95447
+[2025-01-25 13:28:00 +0100] [95448] [INFO] Booting worker with pid: 95448
+[2025-01-25 13:28:21 +0100] [95448] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:28:21 +0100] [95448] [INFO] Worker exiting (pid: 95448)
+[2025-01-25 13:28:21 +0100] [95445] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:28:21 +0100] [95445] [INFO] Worker exiting (pid: 95445)
+[2025-01-25 13:28:21 +0100] [95447] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:28:21 +0100] [95447] [INFO] Worker exiting (pid: 95447)
+[2025-01-25 13:28:21 +0100] [95446] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:28:21 +0100] [95446] [INFO] Worker exiting (pid: 95446)
+[2025-01-25 13:28:22 +0100] [95569] [INFO] Booting worker with pid: 95569
+[2025-01-25 13:28:22 +0100] [95570] [INFO] Booting worker with pid: 95570
+[2025-01-25 13:28:22 +0100] [95571] [INFO] Booting worker with pid: 95571
+[2025-01-25 13:28:22 +0100] [95572] [INFO] Booting worker with pid: 95572
+[2025-01-25 13:29:52 +0100] [95570] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/venv/lib/python3.11/site-packages/openai/_types.py modified
+[2025-01-25 13:29:52 +0100] [95570] [INFO] Worker exiting (pid: 95570)
+[2025-01-25 13:29:52 +0100] [95571] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/venv/lib/python3.11/site-packages/openai/_types.py modified
+[2025-01-25 13:29:52 +0100] [95571] [INFO] Worker exiting (pid: 95571)
+[2025-01-25 13:29:52 +0100] [95569] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/venv/lib/python3.11/site-packages/openai/_types.py modified
+[2025-01-25 13:29:52 +0100] [95569] [INFO] Worker exiting (pid: 95569)
+[2025-01-25 13:29:52 +0100] [95572] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/venv/lib/python3.11/site-packages/openai/_types.py modified
+[2025-01-25 13:29:52 +0100] [95572] [INFO] Worker exiting (pid: 95572)
+[2025-01-25 13:29:53 +0100] [95914] [INFO] Booting worker with pid: 95914
+[2025-01-25 13:29:53 +0100] [95915] [INFO] Booting worker with pid: 95915
+[2025-01-25 13:29:53 +0100] [95916] [INFO] Booting worker with pid: 95916
+[2025-01-25 13:29:53 +0100] [95917] [INFO] Booting worker with pid: 95917
+[2025-01-25 13:30:10 +0100] [95916] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:30:10 +0100] [95915] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:30:10 +0100] [95917] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:30:10 +0100] [95914] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/scripts/analysis.py modified
+[2025-01-25 13:30:10 +0100] [95915] [INFO] Worker exiting (pid: 95915)
+[2025-01-25 13:30:10 +0100] [95916] [INFO] Worker exiting (pid: 95916)
+[2025-01-25 13:30:10 +0100] [95917] [INFO] Worker exiting (pid: 95917)
+[2025-01-25 13:30:10 +0100] [95914] [INFO] Worker exiting (pid: 95914)
+[2025-01-25 13:30:11 +0100] [96025] [INFO] Booting worker with pid: 96025
+[2025-01-25 13:30:11 +0100] [96026] [INFO] Booting worker with pid: 96026
+[2025-01-25 13:30:11 +0100] [96028] [INFO] Booting worker with pid: 96028
+[2025-01-25 13:30:11 +0100] [96029] [INFO] Booting worker with pid: 96029
+[2025-01-25 13:30:15 +0100] [93606] [INFO] Handling signal: int
+[2025-01-25 13:30:15 +0100] [96025] [INFO] Worker exiting (pid: 96025)
+[2025-01-25 13:30:15 +0100] [96029] [INFO] Worker exiting (pid: 96029)
+[2025-01-25 13:30:15 +0100] [96026] [INFO] Worker exiting (pid: 96026)
+[2025-01-25 13:30:15 +0100] [96028] [INFO] Worker exiting (pid: 96028)
+[2025-01-25 13:30:15 +0100] [93606] [INFO] Shutting down: Master
+[2025-01-25 13:30:18 +0100] [96083] [INFO] Starting gunicorn 21.2.0
+[2025-01-25 13:30:18 +0100] [96083] [INFO] Listening at: http://0.0.0.0:5000 (96083)
+[2025-01-25 13:30:18 +0100] [96083] [INFO] Using worker: sync
+[2025-01-25 13:30:18 +0100] [96084] [INFO] Booting worker with pid: 96084
+[2025-01-25 13:30:19 +0100] [96086] [INFO] Booting worker with pid: 96086
+[2025-01-25 13:30:19 +0100] [96087] [INFO] Booting worker with pid: 96087
+[2025-01-25 13:30:19 +0100] [96089] [INFO] Booting worker with pid: 96089
+[2025-01-25 13:33:03 +0100] [96083] [INFO] Handling signal: int
+[2025-01-25 13:33:03 +0100] [96087] [INFO] Worker exiting (pid: 96087)
+[2025-01-25 13:33:03 +0100] [96086] [INFO] Worker exiting (pid: 96086)
+[2025-01-25 13:33:03 +0100] [96084] [INFO] Worker exiting (pid: 96084)
+[2025-01-25 13:33:03 +0100] [96089] [INFO] Worker exiting (pid: 96089)
+[2025-01-25 13:33:05 +0100] [96083] [INFO] Shutting down: Master

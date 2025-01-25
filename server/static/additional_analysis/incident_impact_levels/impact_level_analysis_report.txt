@@ -1,0 +1,122 @@
+Incident Impact Level Distribution Analysis
+==================================================
+
+Analysis Period: February 2021 - December 2024
+==================================================
+
+Impact Level Definitions:
+------------------------------
+Level 0 (None): Post-resolved notification or documentation update
+Level 1 (Minor): Brief disruption or elevated error rates with limited impact
+Level 2 (Major): Significant service degradation affecting core functionality
+Level 3 (Critical): Complete service outage or severe widespread impact
+Level 4 (Maintenance): Planned maintenance or scheduled updates
+
+==================================================
+
+Cross-Provider Impact Level Comparison:
+------------------------------
+Note: Impact levels are standardized across providers to enable comparison.
+However, each provider may have slightly different internal criteria for
+assigning impact levels. The standardization is based on:
+- Scope of impact (number of users/services affected)
+- Duration of incident
+- Severity of service degradation
+- Business impact
+
+==================================================
+
+Provider: OpenAI
+------------------------------
+Total Incidents: 402
+Mean Impact Level: 1.45
+Median Impact Level: 1.00
+Standard Deviation: 0.90
+Mode: 1
+Skewness: 0.12
+Kurtosis: -0.66
+
+Distribution of Impact Levels:
+Level 1 (Minor): Brief disruption or elevated error rates with limited impact
+  156 incidents (38.8%)
+Level 2 (Major): Significant service degradation affecting core functionality
+  135 incidents (33.6%)
+Level 0 (None): Post-resolved notification or documentation update
+  59 incidents (14.7%)
+Level 3 (Critical): Complete service outage or severe widespread impact
+  51 incidents (12.7%)
+Level 4 (Maintenance): Planned maintenance or scheduled updates
+  1 incidents (0.2%)
+
+==================================================
+
+Provider: Anthropic
+------------------------------
+Total Incidents: 213
+Mean Impact Level: 1.24
+Median Impact Level: 1.00
+Standard Deviation: 0.89
+Mode: 2
+Skewness: 0.19
+Kurtosis: -0.39
+
+Distribution of Impact Levels:
+Level 2 (Major): Significant service degradation affecting core functionality
+  77 incidents (36.2%)
+Level 1 (Minor): Brief disruption or elevated error rates with limited impact
+  75 incidents (35.2%)
+Level 0 (None): Post-resolved notification or documentation update
+  50 incidents (23.5%)
+Level 3 (Critical): Complete service outage or severe widespread impact
+  9 incidents (4.2%)
+Level 4 (Maintenance): Planned maintenance or scheduled updates
+  2 incidents (0.9%)
+
+==================================================
+
+Provider: Character.AI
+------------------------------
+Total Incidents: 47
+Mean Impact Level: 2.19
+Median Impact Level: 3.00
+Standard Deviation: 1.06
+Mode: 3
+Skewness: -0.86
+Kurtosis: -0.26
+
+Distribution of Impact Levels:
+Level 3 (Critical): Complete service outage or severe widespread impact
+  23 incidents (48.9%)
+Level 2 (Major): Significant service degradation affecting core functionality
+  12 incidents (25.5%)
+Level 1 (Minor): Brief disruption or elevated error rates with limited impact
+  6 incidents (12.8%)
+Level 0 (None): Post-resolved notification or documentation update
+  5 incidents (10.6%)
+Level 4 (Maintenance): Planned maintenance or scheduled updates
+  1 incidents (2.1%)
+
+==================================================
+
+Provider: StabilityAI
+------------------------------
+Total Incidents: 91
+Mean Impact Level: 1.99
+Median Impact Level: 2.00
+Standard Deviation: 0.71
+Mode: 2
+Skewness: 0.40
+Kurtosis: 4.76
+
+Distribution of Impact Levels:
+Level 2 (Major): Significant service degradation affecting core functionality
+  76 incidents (83.5%)
+Level 4 (Maintenance): Planned maintenance or scheduled updates
+  6 incidents (6.6%)
+Level 1 (Minor): Brief disruption or elevated error rates with limited impact
+  5 incidents (5.5%)
+Level 0 (None): Post-resolved notification or documentation update
+  4 incidents (4.4%)
+
+==================================================
+
