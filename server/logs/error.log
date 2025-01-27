@@ -119,3 +119,268 @@
 [2025-01-25 13:33:03 +0100] [96084] [INFO] Worker exiting (pid: 96084)
 [2025-01-25 13:33:03 +0100] [96089] [INFO] Worker exiting (pid: 96089)
 [2025-01-25 13:33:05 +0100] [96083] [INFO] Shutting down: Master
+[2025-01-27 14:07:34 +0100] [29485] [INFO] Starting gunicorn 21.2.0
+[2025-01-27 14:07:34 +0100] [29485] [INFO] Listening at: http://0.0.0.0:5000 (29485)
+[2025-01-27 14:07:34 +0100] [29485] [INFO] Using worker: sync
+[2025-01-27 14:07:34 +0100] [29486] [INFO] Booting worker with pid: 29486
+[2025-01-27 14:07:34 +0100] [29487] [INFO] Booting worker with pid: 29487
+[2025-01-27 14:07:34 +0100] [29488] [INFO] Booting worker with pid: 29488
+[2025-01-27 14:07:34 +0100] [29489] [INFO] Booting worker with pid: 29489
+[2025-01-27 17:30:01 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:29486)
+[2025-01-27 17:30:01 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:29487)
+[2025-01-27 17:30:01 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:29488)
+[2025-01-27 17:30:01 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:29489)
+[2025-01-27 17:30:01 +0100] [29489] [INFO] Worker exiting (pid: 29489)
+[2025-01-27 17:30:01 +0100] [29486] [INFO] Worker exiting (pid: 29486)
+[2025-01-27 17:30:01 +0100] [29487] [INFO] Worker exiting (pid: 29487)
+[2025-01-27 17:30:01 +0100] [29488] [INFO] Worker exiting (pid: 29488)
+[2025-01-27 17:30:02 +0100] [29485] [ERROR] Worker (pid:29487) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 17:30:02 +0100] [29485] [ERROR] Worker (pid:29486) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 17:30:02 +0100] [29485] [ERROR] Worker (pid:29488) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 17:30:02 +0100] [42496] [INFO] Booting worker with pid: 42496
+[2025-01-27 17:30:02 +0100] [29485] [ERROR] Worker (pid:29489) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 17:30:02 +0100] [42497] [INFO] Booting worker with pid: 42497
+[2025-01-27 17:30:02 +0100] [42498] [INFO] Booting worker with pid: 42498
+[2025-01-27 17:30:02 +0100] [42499] [INFO] Booting worker with pid: 42499
+[2025-01-27 17:46:54 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42496)
+[2025-01-27 17:46:54 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42497)
+[2025-01-27 17:46:54 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42498)
+[2025-01-27 17:46:54 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42499)
+[2025-01-27 17:46:54 +0100] [42498] [INFO] Worker exiting (pid: 42498)
+[2025-01-27 17:46:54 +0100] [42497] [INFO] Worker exiting (pid: 42497)
+[2025-01-27 17:46:54 +0100] [42499] [INFO] Worker exiting (pid: 42499)
+[2025-01-27 17:46:54 +0100] [42496] [INFO] Worker exiting (pid: 42496)
+[2025-01-27 17:46:55 +0100] [29485] [ERROR] Worker (pid:42497) exited with code 1
+[2025-01-27 17:46:55 +0100] [29485] [ERROR] Worker (pid:42497) exited with code 1.
+[2025-01-27 17:46:55 +0100] [29485] [ERROR] Worker (pid:42498) exited with code 1
+[2025-01-27 17:46:55 +0100] [29485] [ERROR] Worker (pid:42498) exited with code 1.
+[2025-01-27 17:46:55 +0100] [42682] [INFO] Booting worker with pid: 42682
+[2025-01-27 17:46:55 +0100] [42683] [INFO] Booting worker with pid: 42683
+[2025-01-27 17:46:55 +0100] [42684] [INFO] Booting worker with pid: 42684
+[2025-01-27 17:46:55 +0100] [42685] [INFO] Booting worker with pid: 42685
+[2025-01-27 17:51:36 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42682)
+[2025-01-27 17:51:36 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42683)
+[2025-01-27 17:51:36 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42684)
+[2025-01-27 17:51:36 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42685)
+[2025-01-27 17:51:36 +0100] [42682] [INFO] Worker exiting (pid: 42682)
+[2025-01-27 17:51:36 +0100] [42684] [INFO] Worker exiting (pid: 42684)
+[2025-01-27 17:51:36 +0100] [42685] [INFO] Worker exiting (pid: 42685)
+[2025-01-27 17:51:36 +0100] [42683] [INFO] Worker exiting (pid: 42683)
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42683) exited with code 1
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42683) exited with code 1.
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42682) exited with code 1
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42682) exited with code 1.
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42685) exited with code 1
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42685) exited with code 1.
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42684) exited with code 1
+[2025-01-27 17:51:37 +0100] [29485] [ERROR] Worker (pid:42684) exited with code 1.
+[2025-01-27 17:51:37 +0100] [42713] [INFO] Booting worker with pid: 42713
+[2025-01-27 17:51:37 +0100] [42714] [INFO] Booting worker with pid: 42714
+[2025-01-27 17:51:37 +0100] [42715] [INFO] Booting worker with pid: 42715
+[2025-01-27 17:51:37 +0100] [42718] [INFO] Booting worker with pid: 42718
+[2025-01-27 17:57:44 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42713)
+[2025-01-27 17:57:44 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42714)
+[2025-01-27 17:57:44 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42715)
+[2025-01-27 17:57:44 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42718)
+[2025-01-27 17:57:44 +0100] [42713] [INFO] Worker exiting (pid: 42713)
+[2025-01-27 17:57:44 +0100] [42715] [INFO] Worker exiting (pid: 42715)
+[2025-01-27 17:57:44 +0100] [42714] [INFO] Worker exiting (pid: 42714)
+[2025-01-27 17:57:44 +0100] [42718] [INFO] Worker exiting (pid: 42718)
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42718) exited with code 1
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42718) exited with code 1.
+[2025-01-27 17:57:44 +0100] [42773] [INFO] Booting worker with pid: 42773
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42715) exited with code 1
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42715) exited with code 1.
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42714) exited with code 1
+[2025-01-27 17:57:44 +0100] [29485] [ERROR] Worker (pid:42714) exited with code 1.
+[2025-01-27 17:57:44 +0100] [42774] [INFO] Booting worker with pid: 42774
+[2025-01-27 17:57:44 +0100] [42775] [INFO] Booting worker with pid: 42775
+[2025-01-27 17:57:44 +0100] [42776] [INFO] Booting worker with pid: 42776
+[2025-01-27 18:13:34 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42773)
+[2025-01-27 18:13:34 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42774)
+[2025-01-27 18:13:34 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42775)
+[2025-01-27 18:13:34 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42776)
+[2025-01-27 18:13:34 +0100] [42774] [INFO] Worker exiting (pid: 42774)
+[2025-01-27 18:13:34 +0100] [42773] [INFO] Worker exiting (pid: 42773)
+[2025-01-27 18:13:34 +0100] [42775] [INFO] Worker exiting (pid: 42775)
+[2025-01-27 18:13:34 +0100] [42776] [INFO] Worker exiting (pid: 42776)
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42774) exited with code 1
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42774) exited with code 1.
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42773) exited with code 1
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42773) exited with code 1.
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42775) exited with code 1
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42775) exited with code 1.
+[2025-01-27 18:13:35 +0100] [42930] [INFO] Booting worker with pid: 42930
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42776) exited with code 1
+[2025-01-27 18:13:35 +0100] [29485] [ERROR] Worker (pid:42776) exited with code 1.
+[2025-01-27 18:13:35 +0100] [42931] [INFO] Booting worker with pid: 42931
+[2025-01-27 18:13:35 +0100] [42932] [INFO] Booting worker with pid: 42932
+[2025-01-27 18:13:35 +0100] [42933] [INFO] Booting worker with pid: 42933
+[2025-01-27 18:29:52 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42930)
+[2025-01-27 18:29:52 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42931)
+[2025-01-27 18:29:52 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42932)
+[2025-01-27 18:29:52 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:42933)
+[2025-01-27 18:29:52 +0100] [42930] [INFO] Worker exiting (pid: 42930)
+[2025-01-27 18:29:52 +0100] [42931] [INFO] Worker exiting (pid: 42931)
+[2025-01-27 18:29:52 +0100] [42932] [INFO] Worker exiting (pid: 42932)
+[2025-01-27 18:29:52 +0100] [42933] [INFO] Worker exiting (pid: 42933)
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42930) exited with code 1
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42930) exited with code 1.
+[2025-01-27 18:29:53 +0100] [43029] [INFO] Booting worker with pid: 43029
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42932) exited with code 1
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42931) exited with code 1
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42931) exited with code 1.
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42932) exited with code 1.
+[2025-01-27 18:29:53 +0100] [29485] [ERROR] Worker (pid:42933) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 18:29:53 +0100] [43030] [INFO] Booting worker with pid: 43030
+[2025-01-27 18:29:53 +0100] [43031] [INFO] Booting worker with pid: 43031
+[2025-01-27 18:29:53 +0100] [43032] [INFO] Booting worker with pid: 43032
+[2025-01-27 19:27:58 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43029)
+[2025-01-27 19:27:58 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43030)
+[2025-01-27 19:27:58 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43031)
+[2025-01-27 19:27:58 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43032)
+[2025-01-27 19:27:58 +0100] [43030] [INFO] Worker exiting (pid: 43030)
+[2025-01-27 19:27:58 +0100] [43032] [INFO] Worker exiting (pid: 43032)
+[2025-01-27 19:27:58 +0100] [43031] [INFO] Worker exiting (pid: 43031)
+[2025-01-27 19:27:58 +0100] [43029] [INFO] Worker exiting (pid: 43029)
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43030) exited with code 1
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43030) exited with code 1.
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43031) exited with code 1
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43031) exited with code 1.
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43029) exited with code 1
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43029) exited with code 1.
+[2025-01-27 19:27:59 +0100] [43078] [INFO] Booting worker with pid: 43078
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43032) exited with code 1
+[2025-01-27 19:27:59 +0100] [29485] [ERROR] Worker (pid:43032) exited with code 1.
+[2025-01-27 19:27:59 +0100] [43079] [INFO] Booting worker with pid: 43079
+[2025-01-27 19:27:59 +0100] [43080] [INFO] Booting worker with pid: 43080
+[2025-01-27 19:27:59 +0100] [43081] [INFO] Booting worker with pid: 43081
+[2025-01-27 20:09:53 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43078)
+[2025-01-27 20:09:53 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43079)
+[2025-01-27 20:09:53 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43080)
+[2025-01-27 20:09:53 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43081)
+[2025-01-27 20:09:53 +0100] [43079] [INFO] Worker exiting (pid: 43079)
+[2025-01-27 20:09:53 +0100] [43078] [INFO] Worker exiting (pid: 43078)
+[2025-01-27 20:09:53 +0100] [43081] [INFO] Worker exiting (pid: 43081)
+[2025-01-27 20:09:53 +0100] [43080] [INFO] Worker exiting (pid: 43080)
+[2025-01-27 20:09:54 +0100] [29485] [ERROR] Worker (pid:43080) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 20:09:54 +0100] [29485] [ERROR] Worker (pid:43078) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 20:09:54 +0100] [29485] [ERROR] Worker (pid:43079) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 20:09:54 +0100] [29485] [ERROR] Worker (pid:43081) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 20:09:54 +0100] [43219] [INFO] Booting worker with pid: 43219
+[2025-01-27 20:09:54 +0100] [43222] [INFO] Booting worker with pid: 43222
+[2025-01-27 20:09:54 +0100] [43223] [INFO] Booting worker with pid: 43223
+[2025-01-27 20:09:55 +0100] [43225] [INFO] Booting worker with pid: 43225
+[2025-01-27 21:34:00 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43219)
+[2025-01-27 21:34:00 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43222)
+[2025-01-27 21:34:00 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43223)
+[2025-01-27 21:34:00 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:43225)
+[2025-01-27 21:34:00 +0100] [43225] [INFO] Worker exiting (pid: 43225)
+[2025-01-27 21:34:00 +0100] [43219] [INFO] Worker exiting (pid: 43219)
+[2025-01-27 21:34:00 +0100] [43222] [INFO] Worker exiting (pid: 43222)
+[2025-01-27 21:34:00 +0100] [43223] [INFO] Worker exiting (pid: 43223)
+[2025-01-27 21:34:01 +0100] [29485] [ERROR] Worker (pid:43225) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:34:01 +0100] [29485] [ERROR] Worker (pid:43222) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:34:01 +0100] [29485] [ERROR] Worker (pid:43223) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:34:01 +0100] [29485] [ERROR] Worker (pid:43219) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:34:01 +0100] [46984] [INFO] Booting worker with pid: 46984
+[2025-01-27 21:34:02 +0100] [46985] [INFO] Booting worker with pid: 46985
+[2025-01-27 21:34:02 +0100] [46986] [INFO] Booting worker with pid: 46986
+[2025-01-27 21:34:02 +0100] [46987] [INFO] Booting worker with pid: 46987
+[2025-01-27 21:51:39 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:46984)
+[2025-01-27 21:51:39 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:46985)
+[2025-01-27 21:51:39 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:46986)
+[2025-01-27 21:51:39 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:46987)
+[2025-01-27 21:51:39 +0100] [46984] [INFO] Worker exiting (pid: 46984)
+[2025-01-27 21:51:39 +0100] [46985] [INFO] Worker exiting (pid: 46985)
+[2025-01-27 21:51:39 +0100] [46987] [INFO] Worker exiting (pid: 46987)
+[2025-01-27 21:51:39 +0100] [46986] [INFO] Worker exiting (pid: 46986)
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46986) exited with code 1
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46986) exited with code 1.
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46987) exited with code 1
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46987) exited with code 1.
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46984) exited with code 1
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46984) exited with code 1.
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46985) exited with code 1
+[2025-01-27 21:51:40 +0100] [29485] [ERROR] Worker (pid:46985) exited with code 1.
+[2025-01-27 21:51:40 +0100] [47101] [INFO] Booting worker with pid: 47101
+[2025-01-27 21:51:40 +0100] [47102] [INFO] Booting worker with pid: 47102
+[2025-01-27 21:51:40 +0100] [47103] [INFO] Booting worker with pid: 47103
+[2025-01-27 21:51:40 +0100] [47104] [INFO] Booting worker with pid: 47104
+[2025-01-27 21:56:51 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:47101)
+[2025-01-27 21:56:51 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:47102)
+[2025-01-27 21:56:51 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:47103)
+[2025-01-27 21:56:51 +0100] [29485] [CRITICAL] WORKER TIMEOUT (pid:47104)
+[2025-01-27 21:56:51 +0100] [47102] [INFO] Worker exiting (pid: 47102)
+[2025-01-27 21:56:51 +0100] [47101] [INFO] Worker exiting (pid: 47101)
+[2025-01-27 21:56:51 +0100] [47104] [INFO] Worker exiting (pid: 47104)
+[2025-01-27 21:56:51 +0100] [47103] [INFO] Worker exiting (pid: 47103)
+[2025-01-27 21:56:52 +0100] [29485] [ERROR] Worker (pid:47101) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:56:52 +0100] [29485] [ERROR] Worker (pid:47103) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:56:52 +0100] [29485] [ERROR] Worker (pid:47104) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:56:52 +0100] [29485] [ERROR] Worker (pid:47102) was sent SIGKILL! Perhaps out of memory?
+[2025-01-27 21:56:52 +0100] [47203] [INFO] Booting worker with pid: 47203
+[2025-01-27 21:56:52 +0100] [47204] [INFO] Booting worker with pid: 47204
+[2025-01-27 21:56:53 +0100] [47205] [INFO] Booting worker with pid: 47205
+[2025-01-27 21:56:53 +0100] [47206] [INFO] Booting worker with pid: 47206
+[2025-01-27 22:03:23 +0100] [29485] [INFO] Handling signal: winch
+[2025-01-27 22:05:11 +0100] [47203] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:05:11 +0100] [47204] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:05:11 +0100] [47203] [INFO] Worker exiting (pid: 47203)
+[2025-01-27 22:05:11 +0100] [47204] [INFO] Worker exiting (pid: 47204)
+[2025-01-27 22:05:12 +0100] [47206] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:05:12 +0100] [47206] [INFO] Worker exiting (pid: 47206)
+[2025-01-27 22:05:12 +0100] [47205] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:05:12 +0100] [47205] [INFO] Worker exiting (pid: 47205)
+[2025-01-27 22:05:13 +0100] [48717] [INFO] Booting worker with pid: 48717
+[2025-01-27 22:05:13 +0100] [48722] [INFO] Booting worker with pid: 48722
+[2025-01-27 22:05:13 +0100] [48727] [INFO] Booting worker with pid: 48727
+[2025-01-27 22:05:13 +0100] [48728] [INFO] Booting worker with pid: 48728
+[2025-01-27 22:07:37 +0100] [48728] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:07:37 +0100] [48728] [INFO] Worker exiting (pid: 48728)
+[2025-01-27 22:07:37 +0100] [48717] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:07:37 +0100] [48722] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:07:37 +0100] [48717] [INFO] Worker exiting (pid: 48717)
+[2025-01-27 22:07:37 +0100] [48722] [INFO] Worker exiting (pid: 48722)
+[2025-01-27 22:07:37 +0100] [48727] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:07:37 +0100] [48727] [INFO] Worker exiting (pid: 48727)
+[2025-01-27 22:07:38 +0100] [49003] [INFO] Booting worker with pid: 49003
+[2025-01-27 22:07:38 +0100] [49004] [INFO] Booting worker with pid: 49004
+[2025-01-27 22:07:38 +0100] [49005] [INFO] Booting worker with pid: 49005
+[2025-01-27 22:07:38 +0100] [49006] [INFO] Booting worker with pid: 49006
+[2025-01-27 22:11:07 +0100] [49005] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:07 +0100] [49005] [INFO] Worker exiting (pid: 49005)
+[2025-01-27 22:11:07 +0100] [49003] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:07 +0100] [49006] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:07 +0100] [49006] [INFO] Worker exiting (pid: 49006)
+[2025-01-27 22:11:07 +0100] [49003] [INFO] Worker exiting (pid: 49003)
+[2025-01-27 22:11:07 +0100] [49004] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:07 +0100] [49004] [INFO] Worker exiting (pid: 49004)
+[2025-01-27 22:11:08 +0100] [49324] [INFO] Booting worker with pid: 49324
+[2025-01-27 22:11:08 +0100] [49325] [INFO] Booting worker with pid: 49325
+[2025-01-27 22:11:08 +0100] [49326] [INFO] Booting worker with pid: 49326
+[2025-01-27 22:11:08 +0100] [49327] [INFO] Booting worker with pid: 49327
+[2025-01-27 22:11:43 +0100] [49326] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:43 +0100] [49326] [INFO] Worker exiting (pid: 49326)
+[2025-01-27 22:11:43 +0100] [49327] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:43 +0100] [49327] [INFO] Worker exiting (pid: 49327)
+[2025-01-27 22:11:43 +0100] [49325] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:43 +0100] [49325] [INFO] Worker exiting (pid: 49325)
+[2025-01-27 22:11:43 +0100] [49324] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:11:43 +0100] [49324] [INFO] Worker exiting (pid: 49324)
+[2025-01-27 22:11:44 +0100] [49420] [INFO] Booting worker with pid: 49420
+[2025-01-27 22:11:44 +0100] [49421] [INFO] Booting worker with pid: 49421
+[2025-01-27 22:11:44 +0100] [49422] [INFO] Booting worker with pid: 49422
+[2025-01-27 22:11:44 +0100] [49423] [INFO] Booting worker with pid: 49423
+[2025-01-27 22:13:47 +0100] [49423] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:13:47 +0100] [49423] [INFO] Worker exiting (pid: 49423)
+[2025-01-27 22:13:48 +0100] [49422] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:13:48 +0100] [49420] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:13:48 +0100] [49421] [INFO] Worker reloading: /Users/sandor/dev/Computational Science/distributed-systems/FAILS/server/app.py modified
+[2025-01-27 22:13:48 +0100] [49420] [INFO] Worker exiting (pid: 49420)
+[2025-01-27 22:13:48 +0100] [49421] [INFO] Worker exiting (pid: 49421)
+[2025-01-27 22:13:48 +0100] [49422] [INFO] Worker exiting (pid: 49422)
+[2025-01-27 22:13:48 +0100] [49757] [INFO] Booting worker with pid: 49757
+[2025-01-27 22:13:49 +0100] [49758] [INFO] Booting worker with pid: 49758
+[2025-01-27 22:13:49 +0100] [49759] [INFO] Booting worker with pid: 49759
+[2025-01-27 22:13:49 +0100] [49760] [INFO] Booting worker with pid: 49760

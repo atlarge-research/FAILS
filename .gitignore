@@ -25,3 +25,13 @@ client/public/.DS_Store
 client/public/team/.DS_Store
 client/src/.DS_Store
 /server/scripts/data_gen_modules/__pycache__
+*.pem
+*.key
+*.crt
+/server/logs
+.env.development
+.env.production
+client/build/team
+/server/static/team
+server/logs/error.log
+server/logs/access.log

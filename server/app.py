@@ -47,7 +47,7 @@ WSGIRequestHandler.protocol_version = "HTTP/1.1"
 app = Flask(__name__, static_folder='../client/build', static_url_path='')
 CORS(app, resources={
     r"/api/*": {
-        "origins": "*",
+        "origins": ["https://atlarge-research.github.io"],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type"],
         "max_age": 3600

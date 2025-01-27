@@ -3,10 +3,10 @@
 # Activate virtual environment if you're using one
 # source venv/bin/activate  # Uncomment if using virtualenv
 
-# Ensure we're in the server directory
+
 cd "$(dirname "$0")"
 
-# Define PID file location
+
 PID_FILE="gunicorn.pid"
 
 # Check if already running
@@ -16,12 +16,10 @@ if [ -f "$PID_FILE" ]; then
         echo "Server is already running with PID: $pid"
         exit 1
     else
-        # Remove stale PID file
         rm "$PID_FILE"
     fi
 fi
 
-# Create logs directory if it doesn't exist
 mkdir -p logs
 
 # Start Gunicorn with specific log files
