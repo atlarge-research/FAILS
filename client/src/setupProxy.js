@@ -1,9 +1,12 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const http = require('http');
 
+// Use environment variable with fallback
+const BACKEND_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+
 module.exports = function(app) {
   const proxyConfig = {
-    target: 'http://localhost:5000',
+    target: BACKEND_URL,
     changeOrigin: true,
     logLevel: 'debug',
     timeout: 600000,
