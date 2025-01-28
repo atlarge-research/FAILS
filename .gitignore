@@ -35,3 +35,6 @@ client/build/team
 /server/static/team
 server/logs/error.log
 server/logs/access.log
+.DS_Store
+.DS_Store
+server/logs/error.log

@@ -28,10 +28,10 @@
   "scripts": {
     "start": "NODE_OPTIONS='--no-deprecation' react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "mkdir -p ../server/static && cp -r build/* ../server/static/",
+    "build:server": "react-scripts build && mkdir -p ../server/static && cp -r build/* ../server/static/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
