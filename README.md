@@ -1,9 +1,8 @@
-# FAILS
-**A Framework for Automated Collection and Analysis of Incidents on LLM Services**
+# FAILS: A Framework for Automated Collection and Analysis of Incidents on LLM Services
 
 This repository contains the web application for the FAILS project. It is built using React for the frontend and Flask for the backend.
 
-> Large Language Model (LLM) services have rapidly become essential tools for applications ranging from customer support to content generation, yet their distributed nature makes them prone to failures that impact reliability and uptime. Existing tools for analysing service incidents are either closed-source, lack comparative capabilities, or fail to provide comprehensive insights into failure trends and recovery patterns. To address these gaps, we present FAILS (Framework for Analysis of Incidents and Outages of LLM Services), an open-source system designed to collect, analyse and visualize incident data from leading LLM providers. FAILS enables users to explore temporal trends, assess reliability metrics associated with failure models such as Mean Time to Recovery (MTTR) and Mean Time Between Failures (MTBF), and gain insights into service co-dependencies using a modern LLM-assisted analysis. With a web-based interface and advanced plotting tools, FAILS enables researchers, engineers, and decision-makers to understand and mitigate disruptions due to LLM services.
+> Large Language Model (LLM) services such as ChatGPT, DALL·E, and Cursor have quickly become essential for society, businesses, and individuals, empowering applications such as chatbots, image generation, and code assistance. The complexity of LLM systems makes them prone to failures and affects their reliability and availability, yet their failure patterns are not fully understood, making it an emerging problem. However, there are limited datasets and studies in this area, particularly lacking an open-access tool for analyzing LLM service failures based on incident reports. Addressing these problems, in this work we propose FAILS, the first open-sourced framework for incident reports collection and analysis on different LLM services and providers. FAILS provides comprehensive data collection, analysis, and visualization capabilities, including:(1) It can automatically collect, clean, and update incident data through its data scraper and processing components;(2) It provides 17 types of failure analysis, allowing users to explore temporal trends of incidents, analyze service reliability metrics, such as Mean Time to Recovery (MTTR) and Mean Time Between Failures (MTBF);(3) It leverages advanced LLM tools to assist in data analysis and interpretation, enabling users to gain observations and insights efficiently. All functions are integrated in the backend, allowing users to easily access them through a web-based frontend interface.
 
 ## Getting it running
 
@@ -33,7 +32,6 @@ This repository contains the web application for the FAILS project. It is built 
    Navigate to the `llm_analysis` directory and create a virtual environment:
 
    ```bash
-   cd llm_analysis
    python -m venv venv
    ```
 
